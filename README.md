@@ -24,7 +24,7 @@ dotnet add package itext7.pdfhtml --version 5.0.1
 
 dotnet add package Microsoft.EntityFrameworkCore --version 7.0.11
 
-# Persistence
+# Paquetes Persistence
 
 dotnet add package Microsoft.EntityFrameworkCore --version 7.0.11
 
