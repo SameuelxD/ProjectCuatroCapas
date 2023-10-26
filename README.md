@@ -32,6 +32,7 @@ dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
 
 # Referencias entre proyectos
 
-![Captura de pantalla 2023-10-26 102622](https://github.com/SameuelxD/ProjectCuatroCapas/assets/126287892/55ea24f7-d66c-4f1a-8262-7623ce406499)
+![Captura de pantalla 2023-10-26 103117](https://github.com/SameuelxD/ProjectCuatroCapas/assets/126287892/49fd2eb6-2a6c-447c-9c55-1d827906a1f9)
+
 
 
