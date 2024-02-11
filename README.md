@@ -5,11 +5,13 @@ dotnet new sln
 dotnet new classlib -o Domain
 dotnet new classlib -o Persistence
 dotnet new classlib -o Application
+dotnet new classlib -o Security
 dotnet new webapi -o API
 
 dotnet sln add .\Domain
 dotnet sln add .\Persistence
 dotnet sln add .\Application
+dotnet sln add .\Security
 dotnet sln add .\API
 
 ### Agregar Referencias entre Proyectos
@@ -22,9 +24,14 @@ dotnet add reference ..\Persistence
 cd Persistence
 dotnet add reference ..\Domain
 
+# Referencias Security
+cd Security
+dotnet add reference ..\Application
+
 # Referencias API
 cd API
 dotnet add reference ..\Application
+dotnet add reference ..\Security
 
 ### Paquetes WebApi
 
@@ -55,6 +62,10 @@ dotnet add package Microsoft.EntityFrameworkCore --version 7.0.11
 dotnet add package Microsoft.EntityFrameworkCore --version 7.0.11
 
 dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
+
+### Paquetes Security
+
+dotnet add package System.IdentityModel.Tokens.Jwt --version 6.32.2
 
 ### Referencias entre proyectos
 
