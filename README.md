@@ -49,6 +49,9 @@ dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.11
 
 dotnet   add package System.IdentityModel.Tokens.Jwt --version 6.32.3
 
+dotnet add package BCrypt.Net-Next
+
+
 ### Paquetes Domain
 
 dotnet add package FluentValidation.AspNetCore --version 11.3.0
